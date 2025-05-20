@@ -1,0 +1,6 @@
+kafka-python
+pyflink
+openai
+chromadb
+sentence-transformers
+psycopg2-binary

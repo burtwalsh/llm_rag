@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Stream Pattern Dashboard</title>
+  <style>
+    body { font-family: sans-serif; padding: 2em; }
+    pre { background: #f0f0f0; padding: 1em; }
+  </style>
+</head>
+<body>
+  <h1>🧠 Stream Insights</h1>
+
+  <h2>Recent Sample Messages</h2>
+  <pre>{{ samples|join('\n\n') }}</pre>
+
+  <h2>LLM-Inferred Schema & Patterns</h2>
+  <pre>{{ llm_output }}</pre>
+</body>
+</html>

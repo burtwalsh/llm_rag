@@ -1,0 +1,7 @@
+FROM ollama/ollama
+
+# Create Ollama's model cache directory
+RUN mkdir -p /root/.ollama/models
+
+# Copy local models into the image (e.g. llama3)
+COPY models/ /root/.ollama/models/
